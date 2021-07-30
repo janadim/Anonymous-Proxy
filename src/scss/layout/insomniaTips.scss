@@ -1,0 +1,86 @@
+@import "../core/variables.scss";
+
+.insomnia {
+  box-sizing: border-box;
+  color: #8ccbea;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: $font-type_text;
+  margin-top: 30px;
+  margin-bottom: 1px;
+  @media all and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.88;
+    margin-left: 275px;
+  }
+}
+.window {
+  font-size: 24px;
+  font-family: $font-type_titles;
+  font-weight: bold;
+  color: $color_text;
+  line-height: 1.25;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.73;
+    margin-bottom: 30px;
+  }
+  @media all and (min-width: 1280px) {
+    font-size: 32px;
+    line-height: 1.41;
+    margin-left: 275px;
+  }
+}
+.text1 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: $font-type_text;
+  color: #4a4a4a;
+  line-height: 1.67;
+  margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  @media all and (min-width: 1280px) {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 275px;
+    width: 730px;
+  }
+}
+.box-go {
+  box-sizing: border-box;
+  border: solid 2px $color_links;
+  width: 76px;
+  height: 45px;
+  margin-bottom: 45px;
+  background-color: white;
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(136, 192, 238, 0.5) 100%
+    );
+    transition: background ease 0.7s;
+  }
+  @media all and (min-width: 768px) {
+    margin-bottom: 60px;
+    width: 91px;
+  }
+  @media all and (min-width: 1280px) {
+    margin-left: 275px;
+    width: 160px;
+  }
+}
+.go {
+  color: $color_links;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: $font-type_text;
+  line-height: 2.25;
+  padding: 0 25px;
+}

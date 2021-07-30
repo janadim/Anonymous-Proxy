@@ -1,0 +1,19 @@
+// Core
+@import "core/reset";
+
+// Layouts
+@import "layout/header";
+@import "layout/insomniaTips";
+@import "layout/3reasons";
+@import "layout/upArrow-div";
+@import "layout/footer";
+
+.central-column {
+  margin: 0 15px;
+  @media all and (min-width: 768px) {
+    margin: 0 39px;
+  }
+  @media all and (min-width: 1280px) {
+    margin: 0;
+  }
+}

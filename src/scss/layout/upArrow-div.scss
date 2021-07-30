@@ -1,0 +1,18 @@
+@import "../core/variables.scss";
+
+.up-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #304268;
+}
+.click.upArrow {
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+// .arrow {
+//   margin-bottom: 30px;
+// }
