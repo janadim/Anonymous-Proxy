@@ -2,7 +2,7 @@
 
 This is a simple layout exercise we developed at [Adalab](https://adalab.es/). The task was based on a replication of a given design in Zeplin, using html and sass partials compiled with gulp.
 
-![Screenshot of website](https://raw.githubusercontent.com/Adalab/modulo-1-evaluacion-final-NurAhissami/master/web-design.png)
+![Screenshot of website](https://raw.githubusercontent.com/janadim/Anonymous-Proxy/master/src/images/Capture.PNG)
 
 **- Requirements**
 
@@ -46,7 +46,3 @@ To install local dependencies, type:
 
 This runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-
-
-
